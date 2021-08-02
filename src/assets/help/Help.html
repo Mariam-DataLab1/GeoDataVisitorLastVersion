@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://labs.kadaster.nl/cases/selfservice_dutch -->
+<html lang="nl-NL">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+  <title>Kadaster Labs</title>
+  <link rel="shortcut icon" href="https://labs.kadaster.nl/assets/images/kadaster-logo.png" />
+  <link rel="apple-touch-icon" href="https://labs.kadaster.nl/assets/images/kadaster-logo.png" />
+  <link rel="stylesheet" href="./Kadaster Labs_files/style.css" />
+  <link rel="stylesheet" href="./Kadaster Labs_files/theme.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+</head>
+
+<body>
+  <div class="content">
+    <nav class="navbar">
+      <div class="navbar-content">
+        <input id="mobileNav" type="checkbox" style="display: none" />
+        <label for="mobileNav" class="hamburger">
+          <div class="hamburgerBar"></div>
+          <div class="hamburgerBar"></div>
+          <div class="hamburgerBar"></div>
+        </label>
+        <a href="https://labs.kadaster.nl/" class="branding">
+          <div class="navbar-title">
+            <img class="navbar-icon" src="./Kadaster Labs_files/kadaster-logo-full.png" alt="Kadaster-Logo" />
+          </div>
+        </a>
+        <div class="navbar-collapsible">
+          <a href="https://labs.kadaster.nl/" class="branding">
+            <div class="navbar-title active">Use Cases</div>
+          </a>
+          <div class="dropdown">
+            <input id="buildingBlockMenu" type="checkbox" style="display: none" />
+            <label class="navbar-title" for="buildingBlockMenu">Bouwblokken</label>
+            <div class="dropdown-items">
+              <a href="https://labs.kadaster.nl/stories">
+                <div class="navbar-title">Stories</div>
+              </a>
+              <a href="https://labs.kadaster.nl/browsers">
+                <div class="navbar-title">Browsers</div>
+              </a>
+              <a href="https://labs.kadaster.nl/demonstrators">
+                <div class="navbar-title">Demonstrators</div>
+              </a>
+              <a href="https://labs.kadaster.nl/data">
+                <div class="navbar-title">Data</div>
+              </a>
+            </div>
+          </div>
+          <a href="https://labs.kadaster.nl/dissemination">
+            <div class="navbar-title">Dissemination</div>
+          </a>
+          <div class="dropdown">
+            <input id="educationMenu" type="checkbox" style="display: none" />
+            <label class="navbar-title" for="educationMenu">Education</label>
+            <div class="dropdown-items">
+              <a href="https://labs.kadaster.nl/internships">
+                <div class="navbar-title">Internships</div>
+              </a>
+              <a href="https://labs.kadaster.nl/education-data">
+                <div class="navbar-title">Data</div>
+              </a>
+            </div>
+          </div>
+          <a href="https://labs.kadaster.nl/developer">
+            <div class="navbar-title">Developer</div>
+          </a>
+          <div class="space"></div>
+          <a href="https://labs.kadaster.nl/toegankelijkheid">
+            <div class="navbar-title">Toegankelijkheid</div>
+          </a>
+          <a href="https://labs.kadaster.nl/about">
+            <div class="navbar-title">Over ons</div>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <section class="content">
+      <div class="banner">
+        <span class="banner-overlay"></span>
+        <picture>
+          <img class="banner-image" src="./Kadaster Labs_files/handen.jpg" alt="Self Service GIS" />
+        </picture>
+      </div>
+      <div class="flex">
+        <div class="flex-content">
+          <h2 id="use-case-self-service-gis---een-visie">
+            Getting Started
+          </h2>
+          <h3 id="use-case-self-service-gis---een-visie">
+            21 steps to GeodataVisitor!
+          </h3>
+
+          <p>This application helps you to integrate your datasets with a dataset on Data science Platforma and visualize them on the map.
+            This application only supports datasets that contain address and postcode (e.g., van Laan van Westenenk 701 and 7334DP). </p>
+          <ol>
+            <li>Click on GD Wizard and study GD Wizard guidelines and upload your CSV file.</li>
+            <li>Configure your dataset by clicking on address and postcode: define sdo:address in property configuration and refine it with link this column to postcode in the BAG and add the postcode as a second column. </li>
+            <li>Configure your dataset by clicking on postcode: define sdo:postalcode for postcode column.</li>
+            <li>Click on next to publish your dataset into refined CSV, RDF, and script. Click on download CSV and RDF. You can find the results of the refined column in CSV and RDF as well as the results of property configuration in the RDF file. </li>
+            <li>To publish your dataset, you need to login into Platform Linked Data Nederland (PLDN) and create a token.</li>
+            <li>Click on user settings.</li>
+            <li>Click on API Token.</li>
+            <li>Click on create token.</li>
+            <li>Select all access level items.</li>
+            <li>Select a token name and click on create.</li>
+            <li>Now, you can copy the API token and paste the API in the publishing step to recognize your account and publish your dataset in the PLDN.</li>
+            <li>Select a name for your dataset and click on the publish bottom.</li>
+            <li>Click on services and create new services.</li>
+            <li>Select a name for your service.</li>
+            <li>Copy the username and dataset name.</li>
+            <li>Insert the username and dataset name in the corresponding inputs in the GeodataVisitor application and click on Go.</li>
+            <li>Left click on markers to zoom in. </li>
+            <li>Shift + left mouse double click is zoom out and box zoom in.</li>
+            <li>Right click on building should display Knowledge Graphs datasets in a pop-up.</li>
+            <li>Click at the top right to switch to aerial photos and Open Street Map.</li>
+            <li>Click on blue links in pop-up to direct you to websites.</li>
+          </ol>
+          <h2>Presentation - LD Wizard - Knowledge Graphs in Action</h2>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/VO61pqKWw7A"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen=""
+            ></iframe>
+
+          <footer class="footer">
+            <div class="footer-bar">
+              <div class="footer-bar-item">
+                <a href="https://www.kadaster.nl/disclaimer" class="footer-link">disclaimer</a>
+              </div>
+              <div class="footer-bar-item">
+                <a href="https://labs.kadaster.nl/toegankelijkheid" class="footer-link">toegankelijkheid</a>
+              </div>
+              <div class="footer-bar-item">
+                <a href="https://tax.kadaster.nl/" class="footer-link">woordenboek</a>
+              </div>
+              <div class="footer-bar-item">
+                <a href="https://kadaster.nl/" class="footer-link">kadaster.nl</a>
+              </div>
+              <div class="footer-bar-item">
+                <a href="https://developer.kadaster.nl/" class="footer-link">developer.kadaster.nl</a>
+              </div>
+            </div>
+          </footer>
+        </div>
+        <script src="./Kadaster Labs_files/main.js.download"></script>
+</body>
+
+</html>
